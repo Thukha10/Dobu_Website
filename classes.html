@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#0D1B2A">
+    <title>Classes &amp; Pricing - DoBu Martial Arts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>DoBu <span>Martial Arts</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classes.html" class="active">Classes &amp; Prices</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="register.html">Join / Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 class="section-heading">Membership Options &amp; Pricing</h2>
+
+        <img src="images/sparring.jpg" alt="Martial artists sparring at DoBu" class="banner-image">
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Membership Plan</th>
+                        <th>Details</th>
+                        <th>Monthly Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic Plan</td>
+                        <td>1 martial art &ndash; 2 sessions per week</td>
+                        <td><span class="price-tag">&pound;25.00</span></td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate Plan</td>
+                        <td>1 martial art &ndash; 3 sessions per week</td>
+                        <td><span class="price-tag">&pound;35.00</span></td>
+                    </tr>
+                    <tr>
+                        <td>Advanced Plan</td>
+                        <td>Any 2 martial arts &ndash; 5 sessions per week</td>
+                        <td><span class="price-tag">&pound;45.00</span></td>
+                    </tr>
+                    <tr>
+                        <td>Elite Plan</td>
+                        <td>Unlimited classes</td>
+                        <td><span class="price-tag">&pound;60.00</span></td>
+                    </tr>
+                    <tr>
+                        <td>Junior Membership</td>
+                        <td>Can attend all-kids martial arts sessions</td>
+                        <td><span class="price-tag">&pound;25.00</span></td>
+                    </tr>
+                    <tr>
+                        <td>Private Martial Arts Tuition</td>
+                        <td>One-on-one coaching per hour</td>
+                        <td><span class="price-tag">&pound;15.00</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="section-heading">Specialist Courses &amp; Fitness</h2>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course / Service</th>
+                        <th>Details</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Beginners' Self-Defence Course</td>
+                        <td>Six-week course (2 &times; 1-hour sessions per week)</td>
+                        <td><span class="price-tag">&pound;180.00</span></td>
+                    </tr>
+                    <tr>
+                        <td>Use of Fitness Room</td>
+                        <td>Per visit price</td>
+                        <td><span class="price-tag">&pound;6.00</span></td>
+                    </tr>
+                    <tr>
+                        <td>Personal Fitness Training</td>
+                        <td>Per hour price</td>
+                        <td><span class="price-tag">&pound;35.00</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="section-heading">Weekly Class Timetable</h2>
+
+        <div class="filter-bar" id="timetable-filter">
+            <button type="button" class="filter-btn active" data-sport="all">All Classes</button>
+            <button type="button" class="filter-btn" data-sport="karate">Karate</button>
+            <button type="button" class="filter-btn" data-sport="judo">Judo</button>
+            <button type="button" class="filter-btn" data-sport="jiu-jitsu">Jiu-jitsu</button>
+            <button type="button" class="filter-btn" data-sport="muay thai">Muay Thai</button>
+        </div>
+
+        <div class="table-wrapper table-scroll">
+            <table id="timetable">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>06:00 - 07:30</td>
+                        <td>Jiu-jitsu</td>
+                        <td>Karate</td>
+                        <td>Judo</td>
+                        <td>Jiu-jitsu</td>
+                        <td>Muay Thai</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>08:00 - 10:00</td>
+                        <td>Muay Thai</td>
+                        <td>Private tuition</td>
+                        <td>Private tuition</td>
+                        <td>Private tuition</td>
+                        <td>Jiu-jitsu</td>
+                        <td>Private tuition</td>
+                        <td>Private tuition</td>
+                    </tr>
+                    <tr>
+                        <td>10:30 - 12:00</td>
+                        <td>Private tuition</td>
+                        <td>Private tuition</td>
+                        <td>Private tuition</td>
+                        <td>Private tuition</td>
+                        <td>-</td>
+                        <td>Judo</td>
+                        <td>Karate</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 - 14:30</td>
+                        <td>Open mat</td>
+                        <td>Open mat</td>
+                        <td>Open mat</td>
+                        <td>Open mat</td>
+                        <td>Private tuition</td>
+                        <td>Karate</td>
+                        <td>Judo</td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 17:00</td>
+                        <td>Kids Jiu-jitsu</td>
+                        <td>Kids Judo</td>
+                        <td>Kids Karate</td>
+                        <td>Kids Jiu-jitsu</td>
+                        <td>Kids Judo</td>
+                        <td>Muay Thai</td>
+                        <td>Jiu-jitsu</td>
+                    </tr>
+                    <tr>
+                        <td>17:30 - 19:00</td>
+                        <td>Karate</td>
+                        <td>Muay Thai</td>
+                        <td>Judo</td>
+                        <td>Jiu-jitsu</td>
+                        <td>Muay Thai</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>19:00 - 21:00</td>
+                        <td>Jiu-jitsu</td>
+                        <td>Judo</td>
+                        <td>Jiu-jitsu</td>
+                        <td>Karate</td>
+                        <td>Private tuition</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <div class="footer-col">
+                <div class="footer-icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                </div>
+                <h3>Address</h3>
+                <p>DoBu Martial Arts Gym<br>124 High Street, Sussex, UK</p>
+            </div>
+            <div class="footer-col">
+                <div class="footer-icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                </div>
+                <h3>Contact</h3>
+                <p>Phone: +44 1234 567890<br>Email: info@dobumartialarts.com</p>
+            </div>
+            <div class="footer-col">
+                <div class="footer-icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                </div>
+                <h3>Opening Hours</h3>
+                <p>Mon&ndash;Fri: 06:00 &ndash; 21:00<br>Sat&ndash;Sun: 08:00 &ndash; 18:00</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 DoBu Martial Arts Gym. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
